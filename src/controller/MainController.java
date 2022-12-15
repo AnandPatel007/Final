@@ -232,6 +232,7 @@ public class MainController {
             {
                 //Get the movie from the API
                 Movie movie = getMovie(search.getText());
+                moviePoster.setImage(new Image(movie.getPoster()));
                 //Display Alert
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Search");
