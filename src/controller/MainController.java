@@ -77,9 +77,6 @@ public class MainController {
         moviePoster.setFitHeight(191);
         moviePoster.setFitWidth(456);
         moviePoster.setImage(new Image("/images/imdb-logo.png"));
-        image1.setPreserveRatio(false);
-        image1.setFitHeight(36);
-        image1.setFitWidth(109);
 
         //Set the icon to the buttons
         login.setGraphic(new ImageView(new Image("https://image.flaticon.com/icons/png/512/25/25231.png")));
@@ -88,37 +85,7 @@ public class MainController {
         play.setGraphic(new ImageView(new Image("/images/play.png")));
         myList.setGraphic(new ImageView(new Image("/images/myList.png")));
         //Set imageview different images for the movie categories from the API https://rapidapi.com/rapidapi/api/movie-database-alternative
-        image1.setImage(new Image("https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"));
-        //Set imageview images from MoviePosterDB
-        //Stretch the images to fit the imageViews
-        image2.setPreserveRatio(false);
-        image2.setFitHeight(36);
-        image2.setFitWidth(109);
-        image2.setImage(new Image("https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"));
-        image3.setPreserveRatio(false);
-        image3.setFitHeight(36);
-        image3.setFitWidth(109);
-        image3.setImage(new Image("https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"));
-        image4.setPreserveRatio(false);
-        image4.setFitHeight(36);
-        image4.setFitWidth(109);
-        image4.setImage(new Image("https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"));
-        image5.setPreserveRatio(false);
-        image5.setFitHeight(36);
-        image5.setFitWidth(109);
-        image5.setImage(new Image("https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"));
-        image6.setPreserveRatio(false);
-        image6.setFitHeight(36);
-        image6.setFitWidth(109);
-        image6.setImage(new Image("https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"));
-        image7.setPreserveRatio(false);
-        image7.setFitHeight(36);
-        image7.setFitWidth(109);
-        image7.setImage(new Image("https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"));
-        image8.setPreserveRatio(false);
-        image8.setFitHeight(36);
-        image8.setFitWidth(109);
-        image8.setImage(new Image("/images/blackAdam.png"));
+
 
         movieList = new ArrayList<>();
         //Get the movies from this API: https://rapidapi.com/rapidapi/api/movie-database-alternative
