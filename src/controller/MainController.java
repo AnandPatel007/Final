@@ -76,7 +76,7 @@ public class MainController {
         moviePoster.setPreserveRatio(false);
         moviePoster.setFitHeight(191);
         moviePoster.setFitWidth(456);
-        moviePoster.setImage(new Image("/images/blackAdam.png"));
+        moviePoster.setImage(new Image("/images/imdb-logo.png"));
         image1.setPreserveRatio(false);
         image1.setFitHeight(36);
         image1.setFitWidth(109);
